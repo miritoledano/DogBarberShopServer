@@ -1,6 +1,0 @@
-@DogBarberShopApi_HostAddress = http://localhost:5031
-
-GET {{DogBarberShopApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
