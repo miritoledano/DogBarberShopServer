@@ -1,0 +1,69 @@
+2024-06-19 00:57:08.218 +03:00 [INF] Login method started
+2024-06-19 00:57:08.237 +03:00 [INF] User found in database
+2024-06-19 01:02:31.357 +03:00 [INF] Login method started
+2024-06-19 01:02:31.474 +03:00 [INF] User found in database
+2024-06-19 01:16:24.305 +03:00 [INF] Login method started
+2024-06-19 01:16:24.408 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+   at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
+2024-06-19 01:17:07.593 +03:00 [INF] User added successfully: DogBarberShopDl.EF.Models.User
+2024-06-19 01:18:57.273 +03:00 [INF] Login method started
+2024-06-19 01:18:57.278 +03:00 [INF] User found in database
+2024-06-19 01:19:22.476 +03:00 [INF] Login method started
+2024-06-19 01:19:22.478 +03:00 [INF] User found in database
+2024-06-19 01:20:06.218 +03:00 [INF] Login method started
+2024-06-19 01:20:06.221 +03:00 [INF] User found in database
+2024-06-19 01:21:27.944 +03:00 [INF] Login method started
+2024-06-19 01:21:27.947 +03:00 [INF] User found in database
+2024-06-19 01:21:42.582 +03:00 [INF] Login method started
+2024-06-19 01:21:42.584 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+   at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
+2024-06-19 01:21:44.339 +03:00 [INF] Login method started
+2024-06-19 01:21:44.340 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+   at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
+2024-06-19 01:25:54.736 +03:00 [INF] Login method started
+2024-06-19 01:25:54.741 +03:00 [INF] User found in database
+2024-06-19 01:26:05.883 +03:00 [INF] Login method started
+2024-06-19 01:26:05.885 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+   at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
+2024-06-19 01:28:43.171 +03:00 [INF] Login method started
+2024-06-19 01:28:43.175 +03:00 [INF] User found in database
+2024-06-19 01:29:33.280 +03:00 [INF] Login method started
+2024-06-19 01:29:33.283 +03:00 [INF] User found in database
+2024-06-19 01:32:32.123 +03:00 [INF] Login method started
+2024-06-19 01:32:32.127 +03:00 [INF] User found in database
+2024-06-19 01:34:07.376 +03:00 [INF] Login method started
+2024-06-19 01:34:07.380 +03:00 [INF] User found in database
+2024-06-19 01:34:33.079 +03:00 [INF] Login method started
+2024-06-19 01:34:33.082 +03:00 [INF] User found in database
+2024-06-19 01:35:44.481 +03:00 [INF] Login method started
+2024-06-19 01:35:44.485 +03:00 [INF] User found in database
+2024-06-19 19:53:23.130 +03:00 [INF] Login method started
+2024-06-19 19:53:25.311 +03:00 [INF] User found in database
+2024-06-19 19:53:42.526 +03:00 [INF] Login method started
+2024-06-19 19:53:42.541 +03:00 [INF] User found in database
+2024-06-19 19:54:31.478 +03:00 [INF] Login method started
+2024-06-19 19:54:31.525 +03:00 [INF] User found in database
+2024-06-19 19:55:58.114 +03:00 [ERR] An error occurred while adding a queue. Queue details: DogBarberShopDl.EF.Models.Queue
+System.InvalidOperationException: A queue with the same date and hour already exists.
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+2024-06-19 19:56:33.201 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 19:57:47.095 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 19:58:23.562 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 19:59:23.402 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 19:59:59.276 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 20:02:10.348 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 20:04:58.138 +03:00 [INF] Login method started
+2024-06-19 20:04:58.142 +03:00 [INF] User found in database
+2024-06-19 20:05:15.569 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 20:06:05.364 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 20:07:39.099 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 20:10:40.643 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 20:35:59.805 +03:00 [INF] Login method started
+2024-06-19 20:35:59.947 +03:00 [INF] User found in database
+2024-06-19 20:37:13.929 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-19 21:44:17.548 +03:00 [INF] Login method started
+2024-06-19 21:44:17.655 +03:00 [INF] User found in database

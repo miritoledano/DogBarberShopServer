@@ -1,0 +1,8 @@
+2024-06-12 23:42:16.026 +03:00 [INF] Login method started
+2024-06-12 23:42:17.516 +03:00 [INF] User found in database
+2024-06-12 23:45:26.707 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-12 23:46:29.234 +03:00 [INF] Login method started
+2024-06-12 23:46:29.244 +03:00 [INF] User found in database
+2024-06-12 23:46:42.978 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
+2024-06-12 23:52:27.375 +03:00 [INF] Login method started
+2024-06-12 23:52:29.749 +03:00 [INF] User found in database
