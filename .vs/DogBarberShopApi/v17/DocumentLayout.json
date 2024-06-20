@@ -1,0 +1,599 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\servises\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\servises\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\ef\\contexts\\dogbarbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\ef\\contexts\\dogbarbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\intarfaces\\ihomedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\intarfaces\\ihomedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userbl\\servers\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|solutionrelative:userbl\\servers\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userbl\\intarfaces\\ihomebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|solutionrelative:userbl\\intarfaces\\ihomebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userentites\\addqueuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|solutionrelative:userentites\\addqueuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userentites\\queuewithuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|solutionrelative:userentites\\queuewithuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\servises\\queuedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\servises\\queuedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userbl\\intarfaces\\iqueuebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|solutionrelative:userbl\\intarfaces\\iqueuebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userbl\\servers\\queuebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|solutionrelative:userbl\\servers\\queuebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userbl\\servers\\usersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|solutionrelative:userbl\\servers\\usersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\intarfaces\\ioueuedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\intarfaces\\ioueuedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\servises\\usersdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\servises\\usersdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\ef\\models\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\ef\\models\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\servises\\homedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\servises\\homedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userbl\\servers\\homebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|solutionrelative:userbl\\servers\\homebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userbl\\intarfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|solutionrelative:userbl\\intarfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\attribute\\myattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\attribute\\myattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userentites\\updatequeuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|solutionrelative:userentites\\updatequeuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\mappermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\mappermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\dogbarbershopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\dogbarbershopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userentites\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|solutionrelative:userentites\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\serilogbilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\serilogbilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userbl\\intarfaces\\iusersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106434AD-36EA-4458-951F-7513EFC8776A}|UserBl\\DogBarberShopBl.csproj|solutionrelative:userbl\\intarfaces\\iusersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userentites\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|solutionrelative:userentites\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\ef\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\ef\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userdl\\intarfaces\\iuserdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A36FCD-5F39-4429-8CDD-A0F85C909714}|UserDl\\DogBarberShopDl.csproj|solutionrelative:userdl\\intarfaces\\iuserdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\userentites\\cookieskeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0757322C-F9A5-4146-898A-6B680E592161}|UserEntites\\DogBarberShopEntitis.csproj|solutionrelative:userentites\\cookieskeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|c:\\users\\user1\\source\\repos\\dogbarbershopapi\\dogbarbershopapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C561572-65E0-4063-8262-4A1535FC3F49}|DogBarberShopApi\\DogBarberShopApi.csproj|solutionrelative:dogbarbershopapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QueueWithUserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\QueueWithUserDetails.cs",
+              "RelativeDocumentMoniker": "UserEntites\\QueueWithUserDetails.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\QueueWithUserDetails.cs",
+              "RelativeToolTip": "UserEntites\\QueueWithUserDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T19:17:32.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DogBarberShopApi.http",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\DogBarberShopApi.http",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\DogBarberShopApi.http",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\DogBarberShopApi.http",
+              "RelativeToolTip": "DogBarberShopApi\\DogBarberShopApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-18T11:12:14.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SerilogBilder.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\SerilogBilder.cs",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\SerilogBilder.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\SerilogBilder.cs",
+              "RelativeToolTip": "DogBarberShopApi\\SerilogBilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:13:04.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IoueueDl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Intarfaces\\IoueueDl.cs",
+              "RelativeDocumentMoniker": "UserDl\\Intarfaces\\IoueueDl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Intarfaces\\IoueueDl.cs",
+              "RelativeToolTip": "UserDl\\Intarfaces\\IoueueDl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T20:56:38.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Attribute\\MyAttribute.cs",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\Attribute\\MyAttribute.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Attribute\\MyAttribute.cs",
+              "RelativeToolTip": "DogBarberShopApi\\Attribute\\MyAttribute.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:37:29.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\EF\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserDl\\EF\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\EF\\Models\\User.cs",
+              "RelativeToolTip": "UserDl\\EF\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:17:37.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DogBarberShopContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\EF\\Contexts\\DogBarberShopContext.cs",
+              "RelativeDocumentMoniker": "UserDl\\EF\\Contexts\\DogBarberShopContext.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\EF\\Contexts\\DogBarberShopContext.cs",
+              "RelativeToolTip": "UserDl\\EF\\Contexts\\DogBarberShopContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:17:05.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Queue.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\EF\\Models\\Queue.cs",
+              "RelativeDocumentMoniker": "UserDl\\EF\\Models\\Queue.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\EF\\Models\\Queue.cs",
+              "RelativeToolTip": "UserDl\\EF\\Models\\Queue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:13:08.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IuserDl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Intarfaces\\IuserDl.cs",
+              "RelativeDocumentMoniker": "UserDl\\Intarfaces\\IuserDl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Intarfaces\\IuserDl.cs",
+              "RelativeToolTip": "UserDl\\Intarfaces\\IuserDl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:50:42.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IqueueBl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\intarfaces\\IqueueBl.cs",
+              "RelativeDocumentMoniker": "UserBl\\intarfaces\\IqueueBl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\intarfaces\\IqueueBl.cs",
+              "RelativeToolTip": "UserBl\\intarfaces\\IqueueBl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T20:28:54.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateQueueDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\UpdateQueueDTO.cs",
+              "RelativeDocumentMoniker": "UserEntites\\UpdateQueueDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\UpdateQueueDTO.cs",
+              "RelativeToolTip": "UserEntites\\UpdateQueueDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T20:27:11.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QueueBl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\servers\\QueueBl.cs",
+              "RelativeDocumentMoniker": "UserBl\\servers\\QueueBl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\servers\\QueueBl.cs",
+              "RelativeToolTip": "UserBl\\servers\\QueueBl.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwCYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T19:31:36.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserBl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\servers\\UserBl.cs",
+              "RelativeDocumentMoniker": "UserBl\\servers\\UserBl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\servers\\UserBl.cs",
+              "RelativeToolTip": "UserBl\\servers\\UserBl.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T19:31:34.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddQueueDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\AddQueueDTO.cs",
+              "RelativeDocumentMoniker": "UserEntites\\AddQueueDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\AddQueueDTO.cs",
+              "RelativeToolTip": "UserEntites\\AddQueueDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T19:29:29.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddUserDTo.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\AddUserDTo.cs",
+              "RelativeDocumentMoniker": "UserEntites\\AddUserDTo.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\AddUserDTo.cs",
+              "RelativeToolTip": "UserEntites\\AddUserDTo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T19:28:51.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Servises\\UserDl.cs",
+              "RelativeDocumentMoniker": "UserDl\\Servises\\UserDl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Servises\\UserDl.cs",
+              "RelativeToolTip": "UserDl\\Servises\\UserDl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:30:02.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DogBarberShopApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:51:19.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QueueDl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Servises\\QueueDl.cs",
+              "RelativeDocumentMoniker": "UserDl\\Servises\\QueueDl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Servises\\QueueDl.cs",
+              "RelativeToolTip": "UserDl\\Servises\\QueueDl.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwB8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:37:16.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeDl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Servises\\HomeDl.cs",
+              "RelativeDocumentMoniker": "UserDl\\Servises\\HomeDl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Servises\\HomeDl.cs",
+              "RelativeToolTip": "UserDl\\Servises\\HomeDl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:36:24.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IhomeDl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Intarfaces\\IhomeDl.cs",
+              "RelativeDocumentMoniker": "UserDl\\Intarfaces\\IhomeDl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Intarfaces\\IhomeDl.cs",
+              "RelativeToolTip": "UserDl\\Intarfaces\\IhomeDl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:36:08.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IuserBl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\intarfaces\\IuserBl.cs",
+              "RelativeDocumentMoniker": "UserBl\\intarfaces\\IuserBl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\intarfaces\\IuserBl.cs",
+              "RelativeToolTip": "UserBl\\intarfaces\\IuserBl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:21:06.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeBl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\servers\\HomeBl.cs",
+              "RelativeDocumentMoniker": "UserBl\\servers\\HomeBl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\servers\\HomeBl.cs",
+              "RelativeToolTip": "UserBl\\servers\\HomeBl.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:52:39.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IhomeBl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\intarfaces\\IhomeBl.cs",
+              "RelativeDocumentMoniker": "UserBl\\intarfaces\\IhomeBl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\intarfaces\\IhomeBl.cs",
+              "RelativeToolTip": "UserBl\\intarfaces\\IhomeBl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:52:20.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DogBarberShopApi\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:51:02.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IusersBl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\intarfaces\\IusersBl.cs",
+              "RelativeDocumentMoniker": "UserBl\\intarfaces\\IusersBl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\intarfaces\\IusersBl.cs",
+              "RelativeToolTip": "UserBl\\intarfaces\\IusersBl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:19:43.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "UserEntites\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\UserLoginDTO.cs",
+              "RelativeToolTip": "UserEntites\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:14:34.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CookiesKeys.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\CookiesKeys.cs",
+              "RelativeDocumentMoniker": "UserEntites\\CookiesKeys.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\CookiesKeys.cs",
+              "RelativeToolTip": "UserEntites\\CookiesKeys.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:14:29.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsersDl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Servises\\UsersDl.cs",
+              "RelativeDocumentMoniker": "UserDl\\Servises\\UsersDl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserDl\\Servises\\UsersDl.cs",
+              "RelativeToolTip": "UserDl\\Servises\\UsersDl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:14:21.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersBl.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\servers\\UsersBl.cs",
+              "RelativeDocumentMoniker": "UserBl\\servers\\UsersBl.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\servers\\UsersBl.cs",
+              "RelativeToolTip": "UserBl\\servers\\UsersBl.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAgwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:14:12.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Program.cs",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Program.cs",
+              "RelativeToolTip": "DogBarberShopApi\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAA4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:14:03.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MapperManager.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\MapperManager.cs",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\MapperManager.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\MapperManager.cs",
+              "RelativeToolTip": "DogBarberShopApi\\MapperManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:13:56.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\appsettings.json",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\appsettings.json",
+              "RelativeToolTip": "DogBarberShopApi\\appsettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-06T11:13:48.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\appsettings.Development.json",
+              "RelativeToolTip": "DogBarberShopApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-06T11:13:46.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DogBarberShopApi\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:13:28.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QueueController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Controllers\\QueueController.cs",
+              "RelativeDocumentMoniker": "DogBarberShopApi\\Controllers\\QueueController.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\DogBarberShopApi\\Controllers\\QueueController.cs",
+              "RelativeToolTip": "DogBarberShopApi\\Controllers\\QueueController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCEAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T11:12:41.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
