@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DogBarberShopApi",
+    "\\DogBarberShopApi\\Controllers"
   ],
-  "SelectedNode": "\\DogBarberShopApi.sln",
+  "SelectedNode": "\\DogBarberShopApi\\DogBarberShopApi.csproj",
   "PreviewInSolutionExplorer": false
 }

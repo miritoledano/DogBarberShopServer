@@ -4,12 +4,12 @@ using DogBarberShopBl.servers;
 using DogBarberShopDl.EF.Contexts;
 using DogBarberShopDl.Intarfaces;
 using DogBarberShopDl.Servises;
+using DogBarberShopEntites;
 using DogBarberShopEntitis;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using UserEntites;
 
 
 var builder = WebApplication.CreateBuilder(args).UseSerilog();

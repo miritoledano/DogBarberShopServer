@@ -24,9 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UserBl\DogBarberShopBl.csproj" />
-    <ProjectReference Include="..\UserDl\DogBarberShopDl.csproj" />
-    <ProjectReference Include="..\UserEntites\DogBarberShopEntitis.csproj" />
+    <ProjectReference Include="..\DogBarberShopBl\DogBarberShopBl.csproj" />
+    <ProjectReference Include="..\DogBarberShopDl\DogBarberShopDl.csproj" />
+    <ProjectReference Include="..\DogBarberShopEntites\DogBarberShopEntitis.csproj" />
   </ItemGroup>
 
 </Project>

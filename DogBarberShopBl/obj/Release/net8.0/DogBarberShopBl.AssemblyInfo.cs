@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DogBarberShopBl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4827733aba64f06d7f484332afb1b21e6f78ad81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25c886c6bd239479485bf6eac67c84dadf94e5ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("DogBarberShopBl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DogBarberShopBl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

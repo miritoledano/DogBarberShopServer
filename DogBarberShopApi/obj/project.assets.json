@@ -4960,18 +4960,18 @@
     },
     "DogBarberShopBl/1.0.0": {
       "type": "project",
-      "path": "../UserBl/DogBarberShopBl.csproj",
-      "msbuildProject": "../UserBl/DogBarberShopBl.csproj"
+      "path": "../DogBarberShopBl/DogBarberShopBl.csproj",
+      "msbuildProject": "../DogBarberShopBl/DogBarberShopBl.csproj"
     },
     "DogBarberShopDl/1.0.0": {
       "type": "project",
-      "path": "../UserDl/DogBarberShopDl.csproj",
-      "msbuildProject": "../UserDl/DogBarberShopDl.csproj"
+      "path": "../DogBarberShopDl/DogBarberShopDl.csproj",
+      "msbuildProject": "../DogBarberShopDl/DogBarberShopDl.csproj"
     },
     "DogBarberShopEntitis/1.0.0": {
       "type": "project",
-      "path": "../UserEntites/DogBarberShopEntitis.csproj",
-      "msbuildProject": "../UserEntites/DogBarberShopEntitis.csproj"
+      "path": "../DogBarberShopEntites/DogBarberShopEntitis.csproj",
+      "msbuildProject": "../DogBarberShopEntites/DogBarberShopEntitis.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5021,14 +5021,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserBl\\DogBarberShopBl.csproj": {
-              "projectPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserBl\\DogBarberShopBl.csproj"
+            "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\DogBarberShopBl\\DogBarberShopBl.csproj": {
+              "projectPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\DogBarberShopBl\\DogBarberShopBl.csproj"
             },
-            "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserDl\\DogBarberShopDl.csproj": {
-              "projectPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserDl\\DogBarberShopDl.csproj"
+            "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\DogBarberShopDl\\DogBarberShopDl.csproj": {
+              "projectPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\DogBarberShopDl\\DogBarberShopDl.csproj"
             },
-            "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserEntites\\DogBarberShopEntitis.csproj": {
-              "projectPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserEntites\\DogBarberShopEntitis.csproj"
+            "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\DogBarberShopEntites\\DogBarberShopEntitis.csproj": {
+              "projectPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\DogBarberShopEntites\\DogBarberShopEntitis.csproj"
             }
           }
         }
@@ -5037,6 +5037,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5099,7 +5104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

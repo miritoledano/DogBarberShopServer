@@ -164,7 +164,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 30
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 30
 2024-06-07 14:52:59.266 +03:00 [INF] Login method started
 2024-06-07 14:53:00.094 +03:00 [INF] User found in database
 2024-06-07 14:53:16.320 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue

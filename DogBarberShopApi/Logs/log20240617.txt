@@ -123,22 +123,22 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 32
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 32
 2024-06-17 14:27:23.334 +03:00 [INF] Login method started
-2024-06-17 14:27:24.921 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
-   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+2024-06-17 14:27:24.921 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopBl\servers\UsersBl.cs:line 45
    at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
 2024-06-17 14:32:26.133 +03:00 [INF] Login method started
 2024-06-17 14:32:26.177 +03:00 [INF] User found in database
 2024-06-17 14:33:01.241 +03:00 [INF] Login method started
-2024-06-17 14:33:01.291 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
-   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+2024-06-17 14:33:01.291 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopBl\servers\UsersBl.cs:line 45
    at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
 2024-06-17 14:33:53.655 +03:00 [INF] Login method started
 2024-06-17 14:33:53.660 +03:00 [INF] User found in database
 2024-06-17 14:34:01.864 +03:00 [INF] Login method started
-2024-06-17 14:34:01.866 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
-   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+2024-06-17 14:34:01.866 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopBl\servers\UsersBl.cs:line 45
    at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
 2024-06-17 14:42:19.200 +03:00 [INF] User added successfully: DogBarberShopDl.EF.Models.User
 2024-06-17 14:51:14.619 +03:00 [INF] User added successfully: DogBarberShopDl.EF.Models.User
@@ -147,7 +147,7 @@ Error Number:547,State:0,Class:16
 2024-06-17 15:44:45.599 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
 2024-06-17 15:47:55.601 +03:00 [ERR] An error occurred while adding a queue. Queue details: DogBarberShopDl.EF.Models.Queue
 System.InvalidOperationException: A queue with the same date and hour already exists.
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 33
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 33
 2024-06-17 15:48:02.737 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -229,21 +229,21 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 15:48:47.303 +03:00 [INF] Login method started
 2024-06-17 15:48:47.378 +03:00 [INF] User found in database
 2024-06-17 15:48:51.627 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
 2024-06-17 15:48:56.124 +03:00 [ERR] An error occurred while adding a queue. Queue details: DogBarberShopDl.EF.Models.Queue
 System.InvalidOperationException: A queue with the same date and hour already exists.
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 33
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 33
 2024-06-17 16:04:43.377 +03:00 [INF] Login method started
 2024-06-17 16:04:44.152 +03:00 [INF] User found in database
 2024-06-17 16:09:40.852 +03:00 [ERR] An error occurred while adding a queue. Queue details: DogBarberShopDl.EF.Models.Queue
 System.InvalidOperationException: A queue with the same date and hour already exists.
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 33
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 33
 2024-06-17 16:10:14.302 +03:00 [ERR] An error occurred while adding a queue. Queue details: DogBarberShopDl.EF.Models.Queue
 System.InvalidOperationException: A queue with the same date and hour already exists.
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 33
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 33
 2024-06-17 16:10:18.347 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -325,7 +325,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 16:10:31.816 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -407,7 +407,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 17:18:51.875 +03:00 [INF] Login method started
 2024-06-17 17:18:52.085 +03:00 [INF] User found in database
 2024-06-17 17:24:52.809 +03:00 [INF] Login method started
@@ -497,7 +497,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:10.885 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -579,7 +579,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:11.620 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -661,7 +661,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:11.777 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -743,7 +743,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:11.940 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -825,7 +825,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:12.092 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -907,7 +907,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:12.245 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -989,7 +989,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:12.398 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1071,7 +1071,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:12.551 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1153,7 +1153,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:12.708 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1235,7 +1235,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:12.858 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1317,7 +1317,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:13.027 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1399,7 +1399,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:14:13.265 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1481,15 +1481,15 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 18:15:00.784 +03:00 [INF] Login method started
 2024-06-17 18:15:00.794 +03:00 [INF] User found in database
 2024-06-17 18:15:17.845 +03:00 [INF] Queue added successfully: DogBarberShopDl.EF.Models.Queue
 2024-06-17 18:32:47.139 +03:00 [INF] Login method started
 2024-06-17 18:32:48.468 +03:00 [INF] User found in database
 2024-06-17 18:32:59.899 +03:00 [INF] Login method started
-2024-06-17 18:32:59.977 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
-   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+2024-06-17 18:32:59.977 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopBl\servers\UsersBl.cs:line 45
    at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
 2024-06-17 18:33:15.958 +03:00 [INF] User added successfully: DogBarberShopDl.EF.Models.User
 2024-06-17 18:34:37.419 +03:00 [INF] Login method started
@@ -1521,12 +1521,12 @@ Error Number:547,State:0,Class:16
 2024-06-17 19:02:26.194 +03:00 [INF] Login method started
 2024-06-17 19:02:26.207 +03:00 [INF] User found in database
 2024-06-17 19:13:59.477 +03:00 [INF] Login method started
-2024-06-17 19:14:00.780 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
-   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+2024-06-17 19:14:00.780 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopBl\servers\UsersBl.cs:line 45
    at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
 2024-06-17 19:14:10.521 +03:00 [INF] Login method started
-2024-06-17 19:14:10.548 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\UsersDl.cs:line 25
-   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\UserBl\servers\UsersBl.cs:line 45
+2024-06-17 19:14:10.548 +03:00 [ERR] Error on Login, Message: המשתמש לא קיים במערכת. יש להירשם תחילה., InnerException: , StackTrace:    at DogBarberShopDl.Servises.UsersDl.Login(User user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\UsersDl.cs:line 25
+   at DogBarberShopBl.servers.UsersBl.Login(UserLoginDTO userLoginDTO) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopBl\servers\UsersBl.cs:line 45
    at DogBarberShopApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopApi\Controllers\UsersController.cs:line 29
 2024-06-17 19:14:23.066 +03:00 [INF] Login method started
 2024-06-17 19:14:23.171 +03:00 [INF] User found in database
@@ -1614,7 +1614,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:19:38.298 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1696,7 +1696,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:21:12.566 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1778,7 +1778,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:23:31.262 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1860,7 +1860,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:23:32.058 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -1942,7 +1942,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:23:32.219 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -2024,7 +2024,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:23:32.395 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -2106,7 +2106,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:23:32.604 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -2188,7 +2188,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:23:32.752 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -2270,7 +2270,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:23:32.986 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -2352,7 +2352,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:23:33.814 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -2434,7 +2434,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:23:38.583 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -2516,7 +2516,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:33:51.902 +03:00 [INF] Login method started
 2024-06-17 19:33:52.060 +03:00 [INF] User found in database
 2024-06-17 19:34:02.455 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
@@ -2600,7 +2600,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:34:17.960 +03:00 [INF] Login method started
 2024-06-17 19:34:17.961 +03:00 [INF] User found in database
 2024-06-17 19:34:40.763 +03:00 [INF] Login method started
@@ -2688,7 +2688,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:35:58.489 +03:00 [INF] Login method started
 2024-06-17 19:35:58.494 +03:00 [INF] User found in database
 2024-06-17 19:37:08.719 +03:00 [INF] Login method started
@@ -2800,18 +2800,18 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 19:55:58.833 +03:00 [INF] Login method started
 2024-06-17 19:55:58.838 +03:00 [INF] User found in database
 2024-06-17 19:57:38.770 +03:00 [ERR] An error occurred while adding a queue. Queue details: DogBarberShopDl.EF.Models.Queue
 System.InvalidOperationException: A queue with the same date and hour already exists.
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 33
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 33
 2024-06-17 20:00:21.247 +03:00 [ERR] An error occurred while adding a queue. Queue details: DogBarberShopDl.EF.Models.Queue
 System.InvalidOperationException: A queue with the same date and hour already exists.
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 33
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 33
 2024-06-17 20:05:57.602 +03:00 [ERR] An error occurred while adding a queue. Queue details: DogBarberShopDl.EF.Models.Queue
 System.InvalidOperationException: A queue with the same date and hour already exists.
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 33
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 33
 2024-06-17 20:06:41.402 +03:00 [INF] Login method started
 2024-06-17 20:06:41.407 +03:00 [INF] User found in database
 2024-06-17 20:07:15.421 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
@@ -2895,7 +2895,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:41.211 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -2977,7 +2977,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:41.958 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3059,7 +3059,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:42.115 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3141,7 +3141,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:42.288 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3223,7 +3223,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:42.440 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3305,7 +3305,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:42.645 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3387,7 +3387,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:42.833 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3469,7 +3469,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:42.984 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3551,7 +3551,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:43.151 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3633,7 +3633,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:43.348 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3715,7 +3715,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:43.516 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3797,7 +3797,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:43.672 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3879,7 +3879,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:43.838 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -3961,7 +3961,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:07:44.056 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4043,7 +4043,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:10:19.144 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4125,7 +4125,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:10:19.752 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4207,7 +4207,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:10:19.926 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4289,7 +4289,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:10:20.163 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4371,7 +4371,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:10:23.912 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4453,7 +4453,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:11:19.724 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4532,7 +4532,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:11:20.277 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4611,7 +4611,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:11:20.438 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4690,7 +4690,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:11:20.663 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4769,7 +4769,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:12:39.842 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4848,7 +4848,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:12:50.080 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -4927,7 +4927,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:16:44.072 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -5006,7 +5006,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:17:14.724 +03:00 [INF] Login method started
 2024-06-17 20:17:14.729 +03:00 [INF] User found in database
 2024-06-17 20:17:42.993 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
@@ -5087,7 +5087,7 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38
 2024-06-17 20:21:54.802 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DogBarberShopDl.EF.Contexts.DogBarberShopContext'.
 Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
  ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK__QUEUES__UserId__6FE99F9F". The conflict occurred in database "DogBarberShop", table "dbo.USER", column 'Id'.
@@ -5166,4 +5166,4 @@ Error Number:547,State:0,Class:16
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
-   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\UserDl\Servises\QueueDl.cs:line 38
+   at DogBarberShopDl.Servises.QueueDl.AddQueue(Queue queue) in C:\Users\user1\source\repos\DogBarberShopApi\DogBarberShopDl\Servises\QueueDl.cs:line 38

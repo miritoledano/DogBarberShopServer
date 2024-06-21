@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UserDl\DogBarberShopDl.csproj" />
+    <ProjectReference Include="..\DogBarberShopDl\DogBarberShopDl.csproj" />
   </ItemGroup>
 
 </Project>

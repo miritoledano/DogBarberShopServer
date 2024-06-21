@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "UserEntites/1.0.0": {
+      "DogBarberShopEntites/1.0.0": {
         "runtime": {
-          "UserEntites.dll": {}
+          "DogBarberShopEntites.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "UserEntites/1.0.0": {
+    "DogBarberShopEntites/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
