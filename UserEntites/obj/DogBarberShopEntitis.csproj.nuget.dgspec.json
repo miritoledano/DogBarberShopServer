@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\DogBarberShopEntitis.csproj": {}
+    "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserEntites\\DogBarberShopEntitis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\DogBarberShopEntitis.csproj": {
+    "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserEntites\\DogBarberShopEntitis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\DogBarberShopEntitis.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserEntites\\DogBarberShopEntitis.csproj",
         "projectName": "DogBarberShopEntitis",
-        "projectPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\DogBarberShopEntitis.csproj",
+        "projectPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserEntites\\DogBarberShopEntitis.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\obj\\",
+        "outputPath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserEntites\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

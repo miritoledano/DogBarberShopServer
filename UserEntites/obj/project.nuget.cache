@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zZ/Xbk2sLT9SV8iYaU6urBy4W5X6JHwp3VenBiDlZxbDlys7uVJVA+PKvKLMVEH0AiOU7gQ81lZCI9UsMTr6Sw==",
+  "dgSpecHash": "XstWDBz/wrZTJQp3ZFVT9OPFbYPoocx919NdmBsqmLJVfiQP1OwhF/KtNo3dBOUpTLHtrg9tfaMo665MsA36lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserEntites\\DogBarberShopEntitis.csproj",
+  "projectFilePath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserEntites\\DogBarberShopEntitis.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

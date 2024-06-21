@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wswZ4c28vQoEbwOmDkR/itxrdjx63XwoBCSbMToV0+BSLKLKeQ9NJkUIoEhcB1hiny5D+YbyinHbCBn5KRe0Tg==",
+  "dgSpecHash": "bDGScxRKrIUDIPjcVrHo2HZ/ESNoBUpZQmHE0p5A/szZj8xMV+dgrX3kPy8ShHUWOn0VNf9WaqcpaeZ0uHjANg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\source\\repos\\DogBarberShopApi\\UserBl\\DogBarberShopBl.csproj",
+  "projectFilePath": "C:\\Users\\user1\\source\\repos\\DogBarberShopServer\\UserBl\\DogBarberShopBl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

@@ -5,11 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogBarberShopApi", "DogBarberShopApi\DogBarberShopApi.csproj", "{8C561572-65E0-4063-8262-4A1535FC3F49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogBarberShopBl", "UserBl\DogBarberShopBl.csproj", "{106434AD-36EA-4458-951F-7513EFC8776A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogBarberShopBl", "DogBarberShopBl\DogBarberShopBl.csproj", "{106434AD-36EA-4458-951F-7513EFC8776A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogBarberShopEntitis", "UserEntites\DogBarberShopEntitis.csproj", "{0757322C-F9A5-4146-898A-6B680E592161}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogBarberShopEntitis", "DogBarberShopEntites\DogBarberShopEntitis.csproj", "{0757322C-F9A5-4146-898A-6B680E592161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogBarberShopDl", "UserDl\DogBarberShopDl.csproj", "{31A36FCD-5F39-4429-8CDD-A0F85C909714}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogBarberShopDl", "DogBarberShopDl\DogBarberShopDl.csproj", "{31A36FCD-5F39-4429-8CDD-A0F85C909714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
