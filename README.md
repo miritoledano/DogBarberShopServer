@@ -25,5 +25,5 @@ This project is a web application designed for managing appointments in a Dog Ba
 1. Clone the repository from GitHub:
 
 ```bash
-git clone 
-git clone https://github.com/your-username/DogBarberShopClient.git
+git clone https://github.com/miritoledano/DogBarberShopServer.git
+git clone https://github.com/miritoledano/DogBarberShopClient.git
